@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh; /* ALTURA TOTAL */
+    width: 100vw; /* LARGURA TOTAL */
+    background-color: black;
+    margin: 0px;
+    position: relative;
+}
+
+body{
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+main{ /* ALINHAR NO CENTRO DA TELA (Próximas 3 linhas)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section#telefone{
+    height: 305px;
+    width: 140px;
+    background-image: url(../imagens/iphone-02.png);
+    background-repeat: no-repeat;
+}

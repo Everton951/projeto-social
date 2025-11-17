@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Redes Sociais</title>
     <link rel="shortcut icon" href="imagens/laranja.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <h1>Olá, mundo !</h1>
+    <main>
+        <section id="telefone">
+
+        </section>
+        <section id="redes-sociais">
+
+        </section>
+    </main>
 </body>
 </html>
+
+
+main {
+    position: relative;
+    height: 100vh; /* ALTURA TOTAL */    
+    background-color: green;
+}
+
+section#telefone{
+    position: absolute; /* Deixar no meio da tela - Precisa do position: relative; lá em cima */
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+}
